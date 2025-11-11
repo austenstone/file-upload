@@ -18,7 +18,10 @@ runs:
     - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         branch: ${{ inputs.branch }}
-        # create_branch: true
+        create_branch: true
+        file_pattern: output.png
+        skip_checkout: true
+        commit_options: '--no-verify'
         push_options: '--force'
 
     - name: Image Upload
