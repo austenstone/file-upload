@@ -1,5 +1,8 @@
 name: 'Image Upload'
 description: 'Upload images and get a URL using a branch'
+branding:
+  icon: 'image'
+  color: 'green'
 inputs:
   path:
     description: 'Image path Ex: images/image.png'
