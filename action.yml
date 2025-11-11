@@ -1,4 +1,4 @@
-name: 'File Upload'
+name: 'Raw Upload'
 description: 'Upload raw images and files and get a URL.'
 branding:
   icon: 'image'
